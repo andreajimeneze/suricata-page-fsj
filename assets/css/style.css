@@ -5,9 +5,9 @@
     font-family: "Open Sans", sans-serif;
 }
 
-
 h1 {
     font-size: 47px;
+    font-weight: 700;
 }
 
 nav div {
@@ -18,10 +18,18 @@ nav img {
     height: 53px;
 }
 
+nav button {
+    border: white 1px solid !important;
+    box-shadow: 0 0 0 !important;
+}
+
+nav span {
+    filter: brightness(0) invert(1);
+}
+
 #container {
     margin: auto;
-    margin: 50px 0;
-    gap: 15px;
+    margin: 80px 0;
 }
 
 footer {
@@ -35,6 +43,10 @@ footer img {
 }
 
 @media screen and (min-width: 576px) {
+    h1 {
+        font-size: 60px;
+    }
+
     .icons-section {
         background-color: #17A2B8;
         height: 170px;
